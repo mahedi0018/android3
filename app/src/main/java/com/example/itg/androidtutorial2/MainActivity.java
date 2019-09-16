@@ -28,20 +28,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        sectionPageAdapter = new SectionPageAdapter(getSupportFragmentManager());
-        mViewPager = (ViewPager) findViewById(R.id .viewpager);
-        setupViewPager(mViewPager);
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
-        tabLayout.setupWithViewPager(mViewPager);
+//        sectionPageAdapter = new SectionPageAdapter(getSupportFragmentManager());
+//        mViewPager = (ViewPager) findViewById(R.id .viewpager);
+//        setupViewPager(mViewPager);
+//        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+//        tabLayout.setupWithViewPager(mViewPager);
 
 
     }
 
     private void setupViewPager(ViewPager viewPager) {
-        SectionPageAdapter adapter = new SectionPageAdapter(getSupportFragmentManager());
-        adapter.addFragment(new OneFragment(), "Tab One");
-        adapter.addFragment(new TwoFragment(), "Tab Two");
-        viewPager.setAdapter(adapter);
+//        SectionPageAdapter adapter = new SectionPageAdapter(getSupportFragmentManager());
+//        adapter.addFragment(new OneFragment(), "Tab One");
+//        adapter.addFragment(new TwoFragment(), "Tab Two");
+//        viewPager.setAdapter(adapter);
     }
 
 
